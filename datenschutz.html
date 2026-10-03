@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Datenschutzerklärung – Weinkeller</title><link rel="stylesheet" href="style.css"></head><body><main>
 <p><a href="index.html">← Weinkeller</a></p><h1>Datenschutzerklärung</h1>
-<p>Stand: 2. Oktober 2026</p>
+<p>Stand: 3. Oktober 2026</p>
 
 <h2>1. Wer verantwortlich ist</h2>
 <p>Weinkeller ist eine interne App für das Team des Restaurants Cantina Lavorato. Mit ihr wird der Wein- und Spirituosenbestand erfasst: Etiketten fotografieren, Bestand pflegen, verkaufte Flaschen abbuchen und Lieferungen einbuchen. Die App ist nur für das Team gedacht und nicht öffentlich nutzbar.</p>
@@ -29,6 +29,7 @@
 <thead><tr><th>Dienstleister</th><th>Wofür</th><th>Standort der Verarbeitung</th></tr></thead>
 <tbody>
 <tr><td>Railway Corporation, USA</td><td>Server und Datenbank</td><td>EU, Amsterdam (Niederlande). Ein getrennter Demo-Server mit erfundenen Beispieldaten für die Prüfung der App durch Apple läuft in den USA.</td></tr>
+<tr><td>Cloudflare, Inc., USA</td><td>Speicher für die täglichen Sicherungskopien der Datenbank. Sie werden vor dem Hochladen verschlüsselt; Cloudflare kann sie nicht lesen.</td><td>EU</td></tr>
 <tr><td>Anthropic, PBC, USA</td><td>Auslesen der Etiketten und Lieferscheine (siehe Abschnitt 4)</td><td>USA</td></tr>
 <tr><td>650 Industries, Inc. (Expo), USA</td><td>Auslieferung von App-Aktualisierungen. Dabei werden IP-Adresse, App-Version und eine zufällige Kennung der Installation übertragen.</td><td>USA</td></tr>
 <tr><td>GitHub, Inc., USA</td><td>Bereitstellung dieser Website (IP-Adresse beim Aufruf)</td><td>USA</td></tr>
@@ -42,7 +43,7 @@
 <li><strong>Konten und Verlauf:</strong> solange die App im Restaurant genutzt wird. Verlässt jemand das Team, wird das Konto gesperrt; der Name bleibt an den bisherigen Einträgen stehen, damit der Bestand nachvollziehbar bleibt. Auf Wunsch löschen wir den Namen oder ersetzen ihn.</li>
 <li><strong>Fotos:</strong> solange der zugehörige Wein im Bestand geführt wird. Gelöschte Weine bleiben mit ihren Fotos im Papierkorb, damit sich das Löschen rückgängig machen lässt. Auf Wunsch entfernen wir sie endgültig.</li>
 <li><strong>Anmeldung auf dem Gerät:</strong> bis zum Abmelden, höchstens 180 Tage.</li>
-<li><strong>Sicherungskopien:</strong> Die Datenbank wird wöchentlich auf einen Rechner der Verantwortlichen gesichert. Es bleiben die letzten acht Sicherungen, ältere werden automatisch gelöscht.</li>
+<li><strong>Sicherungskopien:</strong> Die Datenbank wird täglich verschlüsselt bei Cloudflare gesichert (siehe Abschnitt 5); jede Kopie wird nach 14 Tagen automatisch gelöscht. Zusätzlich wird sie wöchentlich auf einen Rechner der Verantwortlichen gesichert. Dort bleiben die letzten acht Sicherungen, ältere werden automatisch gelöscht.</li>
 <li><strong>Protokolle:</strong> werden nach Ablauf der Aufbewahrungsfristen des Hosting-Anbieters automatisch gelöscht.</li>
 </ul>
 
