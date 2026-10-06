@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Datenschutzerklärung – Weinkeller</title><link rel="stylesheet" href="style.css"></head><body><main>
 <p><a href="index.html">← Weinkeller</a></p><h1>Datenschutzerklärung</h1>
-<p>Stand: 3. Oktober 2026</p>
+<p>Stand: 6. Oktober 2026</p>
 
 <h2>1. Wer verantwortlich ist</h2>
 <p>Weinkeller ist eine interne App für das Team des Restaurants Cantina Lavorato. Mit ihr wird der Wein- und Spirituosenbestand erfasst: Etiketten fotografieren, Bestand pflegen, verkaufte Flaschen abbuchen und Lieferungen einbuchen. Die App ist nur für das Team gedacht und nicht öffentlich nutzbar.</p>
@@ -13,6 +13,7 @@
 <p><strong>Wer was getan hat:</strong> Damit der Bestand nachvollziehbar bleibt, speichert die App zu Buchungen, abgebuchten Flaschen, Lieferungen und Änderungen an Weinen den Namen des Kontos und den Zeitpunkt.</p>
 <p><strong>Fotos:</strong> Fotos von Flaschenetiketten und Lieferscheinen, die Sie in der App aufnehmen oder aus Ihren Fotos auswählen. Die Kamera wird nur geöffnet, wenn Sie ein Foto machen. Bei der Auswahl aus Ihren Fotos sieht die App nur die Bilder, die Sie auswählen. Bitte fotografieren Sie keine Personen.</p>
 <p><strong>Bestandsdaten:</strong> Angaben zu Weinen und Spirituosen wie Name, Jahrgang, Preise, Lagerort und Bestand. Sie beziehen sich nicht auf Personen.</p>
+<p><strong>Bestellungen für die Küche (Test):</strong> Einzelne Konten können Bestellungen sprechen, aus denen ein Küchenbon wird. Das Mikrofon ist nur an, solange Sie die Aufnahme gestartet haben. Die Aufnahme wandelt die Spracherkennung von Apple in Text um (siehe Abschnitt 5); die App selbst speichert keine Aufnahmen. Gespeichert werden der Bon mit Tisch, Gerichten und Änderungen, der erkannte Text der Ansage, das Konto und der Zeitpunkt. Bitte sprechen Sie keine Namen von Gästen.</p>
 <p><strong>Auf dem Gerät:</strong> Was ohne Netz erfasst wird (zum Beispiel im Keller), bleibt auf dem Gerät, bis es gesendet ist. Außerdem merkt sich die App Ihre Sprache und Einstellungen.</p>
 <p><strong>Kein Tracking:</strong> Die App enthält keine Werbung, keine Analyse- oder Trackingdienste und sendet keine Fehlerberichte an Dritte.</p>
 <p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse liegt in einer nachvollziehbaren und sicheren Bestandsführung des Restaurants.</p>
@@ -20,8 +21,9 @@
 <h2>3. Technische Daten</h2>
 <p>Bei jedem Aufruf des Servers werden technisch notwendige Daten verarbeitet, insbesondere IP-Adresse, Zeitpunkt, aufgerufene Adresse und Gerätetyp. Der Server schreibt diese Angaben in ein Protokoll, das bei unserem Hosting-Anbieter für begrenzte Zeit aufbewahrt wird. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren und funktionierenden Dienst).</p>
 
-<h2>4. Etikettenerkennung</h2>
+<h2>4. Etikettenerkennung und Küchenbons</h2>
 <p>Damit Name, Produzent und Jahrgang nicht abgetippt werden müssen, sendet der Server Fotos von Etiketten und Lieferscheinen an die KI von Anthropic, die den Text ausliest. Dabei werden nur die Fotos übertragen, keine Namen von Konten. Anthropic nutzt diese Daten nicht zum Training seiner Modelle und löscht sie nach den Fristen seiner Bedingungen.</p>
+<p>Bei Küchenbons wird der Text einer Ansage nur dann an Anthropic gesendet, wenn Sie ausdrücklich „Mit Claude verbessern“ wählen, zusammen mit der Liste der Gerichte. Auch dabei werden keine Namen von Konten übertragen.</p>
 
 <h2>5. Dienstleister</h2>
 <p>Für den Betrieb setzen wir die folgenden Dienstleister ein. Sie verarbeiten Daten nur in unserem Auftrag. Eine Weitergabe zu Werbezwecken findet nicht statt.</p>
@@ -30,7 +32,8 @@
 <tbody>
 <tr><td>Railway Corporation, USA</td><td>Server und Datenbank</td><td>EU, Amsterdam (Niederlande). Ein getrennter Demo-Server mit erfundenen Beispieldaten für die Prüfung der App durch Apple läuft in den USA.</td></tr>
 <tr><td>Cloudflare, Inc., USA</td><td>Speicher für die täglichen Sicherungskopien der Datenbank. Sie werden vor dem Hochladen verschlüsselt; Cloudflare kann sie nicht lesen.</td><td>EU</td></tr>
-<tr><td>Anthropic, PBC, USA</td><td>Auslesen der Etiketten und Lieferscheine (siehe Abschnitt 4)</td><td>USA</td></tr>
+<tr><td>Anthropic, PBC, USA</td><td>Auslesen der Etiketten und Lieferscheine, auf Wunsch Lesen einer Bestellung für die Küche (siehe Abschnitt 4)</td><td>USA</td></tr>
+<tr><td>Apple Inc., USA</td><td>Spracherkennung beim Sprechen von Bestellungen für die Küche. Die Aufnahme wird an Apple gesendet und in Text umgewandelt.</td><td>USA</td></tr>
 <tr><td>650 Industries, Inc. (Expo), USA</td><td>Auslieferung von App-Aktualisierungen. Dabei werden IP-Adresse, App-Version und eine zufällige Kennung der Installation übertragen.</td><td>USA</td></tr>
 <tr><td>GitHub, Inc., USA</td><td>Bereitstellung dieser Website (IP-Adresse beim Aufruf)</td><td>USA</td></tr>
 </tbody>
@@ -42,6 +45,7 @@
 <ul>
 <li><strong>Konten und Verlauf:</strong> solange die App im Restaurant genutzt wird. Verlässt jemand das Team, wird das Konto gesperrt; der Name bleibt an den bisherigen Einträgen stehen, damit der Bestand nachvollziehbar bleibt. Auf Wunsch löschen wir den Namen oder ersetzen ihn.</li>
 <li><strong>Fotos:</strong> solange der zugehörige Wein im Bestand geführt wird. Gelöschte Weine bleiben mit ihren Fotos im Papierkorb, damit sich das Löschen rückgängig machen lässt. Auf Wunsch entfernen wir sie endgültig.</li>
+<li><strong>Küchenbons:</strong> solange die App im Restaurant genutzt wird. Auf Wunsch löschen wir sie.</li>
 <li><strong>Anmeldung auf dem Gerät:</strong> bis zum Abmelden, höchstens 180 Tage.</li>
 <li><strong>Sicherungskopien:</strong> Die Datenbank wird täglich verschlüsselt bei Cloudflare gesichert (siehe Abschnitt 5); jede Kopie wird nach 14 Tagen automatisch gelöscht. Zusätzlich wird sie wöchentlich auf einen Rechner der Verantwortlichen gesichert. Dort bleiben die letzten acht Sicherungen, ältere werden automatisch gelöscht.</li>
 <li><strong>Protokolle:</strong> werden nach Ablauf der Aufbewahrungsfristen des Hosting-Anbieters automatisch gelöscht.</li>
